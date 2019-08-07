@@ -1,20 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Card from "./components/Card"
 import Navbar from "./components/Navbar.jsx"
 import Footer from './components/Footer.jsx'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import works from "../src/works.json"
+
 
 
 function App() {
-  return(
-<>
-  <Navbar />
+ 
   
-  <Footer />
-</>
+    return(
+      <>
+      <Navbar />
+      
 
-  )
-}
+      <Footer />
+      </>
+    )
+  }
+
 
 export default App;

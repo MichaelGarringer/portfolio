@@ -1,0 +1,17 @@
+h2{
+ color:white;
+
+}
+body{background-color: green;
+
+}
+footer{padding:3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid tomato;
+    color: #9d9d9d;
+    background-color:#333333;
+    text-align: center;
+margin-top:-50px;}

@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h2{color:tomato;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+ 
+
+}
+a{color:#777777;}
+a:link{text-decoration:none;
+color:none;}
+a:visited{text-decoration:none;
+}
+.navbar{
+  padding-left:10px;
+  padding-right:10px
+}
+body{
+  background-image: url("../src/images/white-waves.png");
+}
+
+.section{float:left;
+  background-color:#ffffff;
+  border: solid #dddddd 2px;
+font-family:Arial, Helvetica, sans-serif;
+width:960px;
+overflow: hidden
+
+
+}
+
+#mike{padding:25px;
+float:left;}
+p{padding-left:10px;
+font-family:Arial, Helvetica, sans-serif;
+color:#777777;}
+
+.aside{float:left;
+padding-left:40px;
+}
+
+;
+.caption{
+  text-align:center;
+}
+
+.container {
+  text-align: center;
+  padding: 3px 15px;
+  color:#ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+footer{padding:3px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+border-top: 1px solid tomato;
+background-color:#343a40;
+text-align: center;
+margin-top:-50px;}
+
+
+
+

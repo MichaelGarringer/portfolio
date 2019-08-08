@@ -5,7 +5,7 @@ function Navbar(){
     
       return(
         <nav class="navbar navbar-dark bg-dark">
-       <h2>Mike Garringer</h2>
+       <h3>Mike Garringer</h3>
       </nav>
   
   )

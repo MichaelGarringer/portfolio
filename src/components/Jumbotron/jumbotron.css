@@ -1,0 +1,16 @@
+.jumbotron{
+   
+    background-color:#343a40;
+    margin-top:5%;
+    margin-bottom:0;
+    margin-left:10%;
+    margin-right:10%
+}
+h3{color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin-left:5px;
+    margin-right:20px;
+    padding-bottom:5px;
+}
+  p{color:white;}

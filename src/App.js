@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Card from "./components/Card"
-import Jumbotron from "./components/Jumbotron/Jumbotron.js"
 import Navbar from "./components/Navbar.jsx"
 import Footer from './components/Footer.jsx'
-import works from "../src/works.json"
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Index from './pages/index';
+import Portfolio from "./pages/portfolio"
+import Resume from "./pages/resume"
 
 
 function App() {
@@ -13,13 +14,16 @@ function App() {
   
     return(
       <>
+      <Router>
       <Navbar />
-      <Jumbotron />
 
-
-    
-
+      <Switch>
+      <Route exact path ="/" component={Index} />
+      <Route exat path ="/portfolio" component={Portfolio} />
+      <Route exact path ="/resume" component={Resume} />
+      </Switch>
       <Footer />
+      </Router>
       </>
     )
   }

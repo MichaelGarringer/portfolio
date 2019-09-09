@@ -4,26 +4,25 @@ import "./Navbar.css"
 import "../images/Michael-Garringer.pdf"
 
 
-function Navbar(){
-    
-      return(
-        <>
-        <nav class="navbar navbar-dark bg-dark">
-        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
-      <h2>Michael Garringer</h2>
-            </Link>
-       <div className="links">
-       <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-      <p>Portfolio</p>
-      </Link>
-            <Link to="/resume" className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
-      <p>Resume</p>
-            </Link>
-     </div>
-      </nav>
-    
-       </>
-  
+function Navbar() {
+
+  return (
+    <>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <Link to="/" className="navbar-brand">Mike Garringer</Link>
+  <ul class="navbar-nav justify-content-end">
+    <li class="nav-item">
+    <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
+    </li>
+    <li class="nav-item">
+    <Link to="/resume" className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}>Resume</Link>
+    </li>
+  </ul>
+</nav>
+
+    </>
+
   )
 
 }

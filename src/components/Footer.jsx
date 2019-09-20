@@ -6,7 +6,7 @@ function Footer(){
         return(
             <>
             <footer>
-            <a class="li-ic mr-3" role="button" href="https://www.linkedin.com/in/michael-garringer-029551131/"><i
+            <a class="li-ic mr-3" role="button" href="https://www.linkedin.com/in/mike-garringer-029551131/"><i
             class="fab fa-lg fa-linkedin-in"></i></a>
     
     <a class="git-ic mr-3" role="button" href="https://github.com/MichaelGarringer/"><i

@@ -29,6 +29,7 @@ a:visited{text-decoration:none;
 }
 body{
   background-image: url("../src/images/white-waves.png");
+  padding-bottom:4%;
 }
 
 .section{float:left;
@@ -65,7 +66,9 @@ padding-left:40px;
 
 
 
-footer{padding:3px;
+footer{
+
+  padding:3px;
 position: fixed;
 left: 0;
 bottom: 0;

@@ -28,7 +28,7 @@ a:visited{text-decoration:none;
   padding-right:10px
 }
 body{
-  background-image: url("../src/images/white-waves.png");
+  background-color:#343a40;
   padding-bottom:4%;
 }
 
@@ -46,7 +46,8 @@ overflow: hidden
 float:left;}
 p{padding-left:10px;
 font-family:Arial, Helvetica, sans-serif;
-color:#777777;}
+color:#777777;
+}
 
 .aside{float:left;
 padding-left:40px;
@@ -74,7 +75,7 @@ left: 0;
 bottom: 0;
 width: 100%;
 border-top: 1px solid tomato;
-background-color:#343a40;
+background-color:tomato;
 text-align: center;
 margin-top:-50px;}
 

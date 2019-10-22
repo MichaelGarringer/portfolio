@@ -9,14 +9,12 @@ function Navbar() {
   return (
     <>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <Link to="/" className="navbar-brand">Mike Garringer</Link>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <Link to="/" className="navbar-brand"><h2>Mike Garringer</h2></Link>
   <ul class="navbar-nav justify-content-end">
+   
     <li class="nav-item">
-    <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Projects</Link>
-    </li>
-    <li class="nav-item">
-    <Link to="/resume" className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}>Resume</Link>
+    <Link to="/resume" className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}><h5>Resume</h5></Link>
     </li>
   </ul>
 </nav>

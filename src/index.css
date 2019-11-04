@@ -5,8 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
+}
+  -webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -24,12 +27,16 @@ color:none;}
 a:visited{text-decoration:none;
 }
 .navbar{
-  padding-left:10px;
-  padding-right:10px
+  width:100%;
+  position:fixed;
+  margin-top:0;
 }
 body{
   background-color:#343a40;
+  padding-top:4%;
   padding-bottom:4%;
+  overflow:scroll;
+  overflow-x:hidden;
 }
 
 .section{float:left;
@@ -47,6 +54,7 @@ float:left;}
 p{padding-left:10px;
 font-family:Arial, Helvetica, sans-serif;
 color:#777777;
+
 }
 
 .aside{float:left;
@@ -63,6 +71,7 @@ padding-left:40px;
   padding: 3px 15px;
   color:#ffffff;
   font-family:Arial, Helvetica, sans-serif;
+  
 }
 
 

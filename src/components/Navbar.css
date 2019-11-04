@@ -1,12 +1,20 @@
-.navbar, .nav-item{background-color:tomato;
+.navbar, .nav-item{
+    top:0;
+    background-color:tomato;
     color:#343a40;
+ 
+
+ 
+
 }
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
-
 }
+
 h5{
     color:white;
-    display: block;
+ 
 }
+

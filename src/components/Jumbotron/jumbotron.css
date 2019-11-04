@@ -4,7 +4,9 @@
     margin-top:5%;
     margin-bottom:10%;
     margin-left:10%;
-    margin-right:10%
+    margin-right:10%;
+    overflow:hidden;
+ 
 }
 
 h3{color:white;
@@ -15,6 +17,4 @@ h3{color:white;
     padding-bottom:5px;
 }
   p{color:white;}
-  img{
-      opacity: .75
-  }
+ 
